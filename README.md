@@ -18,8 +18,17 @@
 * **_'mkdir'_** : is short for make directory in other words, make a new folder wherever it currently is
   - can specify a path just like when using "cd". (instead of going there, it creates it)
      - Arguments: multiple  
-* 
-    'rm': means Remove but it only removes files, not directories
-    'touch': creates files but not folders, Update the access and modification times of each FILE to the current time
+  
+* **_'rm'_**: means Remove but it only removes files, not directories.
+  - -r : recursive, pick everything within a directory, including directory itself.
+  - -f : forces deletion, without asking.
+  - -v : verbose mode, tells you every file that's being deleted.
+    - Arguments: multiple 
+
+* **_'touch'_**: creates files but not folders, Update the access and modification times of each FILE to the current time
+   - -a : only updates the access time. 
+   - -c : does not create a file. updates the time of existing file.
+
+
     'cp' :means to copy, the files and the directories, source and destination location
     'mv' : is short for move, it does 2 things: first it copies and then deletes from its original folder can also be known as rename.

@@ -27,8 +27,17 @@
 
 * **_'touch'_**: creates files but not folders, Update the access and modification times of each FILE to the current time
    - -a : only updates the access time. 
+   - -m : only updates the modification time. 
    - -c : does not create a file. updates the time of existing file.
+     - Arguments: multiple 
 
-
-    'cp' :means to copy, the files and the directories, source and destination location
-    'mv' : is short for move, it does 2 things: first it copies and then deletes from its original folder can also be known as rename.
+* **_'cp'_** : means to copy, the files and the directories, source and destination location
+  - -f : force, overwrites files.
+  - -p : preserves the timestamps, permissions and file attributes.
+  - -r : recursive, allows for copying over the contents of a specified directory.
+  - -v : verbose, will list all files that are being copied over.
+     - Arguments: multiple, but last one is destination.
+  
+* **_'mv'_** : is move and or rename unless moving into another file system, then it copies and deletes original.
+   - -f : force, overwrites without asking.
+   - -i : interactive, makes sure to ask before overwriting.

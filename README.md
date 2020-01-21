@@ -41,3 +41,5 @@
 * **_'mv'_** : is move and or rename unless moving into another file system, then it copies and deletes original.
    - -f : force, overwrites without asking.
    - -i : interactive, makes sure to ask before overwriting.
+
+![image](https://sd.keepcalms.com/i/a-class-that-cheats-together-graduates-together.png)
